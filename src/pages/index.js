@@ -24,7 +24,7 @@ const IndexPage = () => (
                 </Col>
             </Row>
             <Row style={{height: '50%'}}>
-                <Col>
+                <Col>test
                     <img src={honey3}/>
                 </Col>
                 <Col>
