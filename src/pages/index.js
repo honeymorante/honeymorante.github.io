@@ -39,7 +39,7 @@ const IndexPage = () => (
                     <Row style={{height: '50%'}}>
                         <img src={honey4} />
                     </Row>
-                    <Row style={{height: '50%', textAlign: 'center'}}>
+                    <Row style={{height: '50%', textAlign: 'center', backgroundColor: '#e8c7cc'}}>
                         <span style={{margin: '0 auto'}}>Blog - coming soon</span>
                     </Row>
                 </Col>
