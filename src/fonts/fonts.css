@@ -2,3 +2,13 @@
     font-family: "Unchanged";
     src: url("unchanged.ttf") format("truetype"); /* Safari, Android, iOS */
 }
+
+@font-face {
+    font-family: "SaltedMocha";
+    src: url("SaltedMocha-Regular.otf") ; /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: "Gidole";
+    src: url("Gidole-Regular.otf") ; /* Safari, Android, iOS */
+}
