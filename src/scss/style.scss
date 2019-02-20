@@ -22,6 +22,18 @@ html, body{
       font-family: "SaltedMocha", "sans-serif";
       font-size: 5vw;
       display: block;
+
+      @media screen and (max-width: 800px) {
+          font-size: 70px;
+      }
+
+      @media screen and (max-width: 500px) {
+        font-size: 40px;
+      }
+
+      @media screen and (max-height: 500px) {
+        font-size: 40px;
+      }
     }
 
     .main-sub-title{

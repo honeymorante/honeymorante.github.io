@@ -23,6 +23,21 @@ html, body {
   font-size: 5vw;
   display: block;
 }
+@media screen and (max-width: 800px) {
+  .full-page .main-box .main-title {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .full-page .main-box .main-title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-height: 500px) {
+  .full-page .main-box .main-title {
+    font-size: 40px;
+  }
+}
 .full-page .main-box .main-sub-title {
   font-size: 16px;
   margin-top: 30px;
