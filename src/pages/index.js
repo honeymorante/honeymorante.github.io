@@ -22,8 +22,9 @@ const IndexPage = () => (
                 <Col className="img-parent" style={{height: '100%'}}>
                     <img src={honey1} />
                 </Col>
-                <Col className="img-parent"><a href="https://www.youtube.com/user/honzM11" style={{height: '100%'}}>
-                    <img src={youtube}/>
+                <Col className="img-parent">
+                    <a href="https://www.youtube.com/user/honzM11" style={{height: '100%'}}>
+                    <img src={youtube} style={{backgroundColor: '#e8c7cc', objectFit: 'contain'}}/>
                     </a>
                 </Col>
             </Row>
@@ -33,7 +34,8 @@ const IndexPage = () => (
                 </Col>
                 <Col style={{height: '100%'}}>
                     <Row style={{height: '50%'}} className="img-parent">
-                        <a href="https://soundcloud.com/honeymorante" style={{height: '100%'}}><img src={soundcloud} /></a>
+                        <a href="https://soundcloud.com/honeymorante" style={{height: '100%'}}>
+                        <img src={soundcloud}  /></a>
                     </Row>
                     <Row style={{height: '50%'}} className="img-parent">
                         <img src={honey2} />
